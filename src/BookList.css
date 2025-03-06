@@ -1,0 +1,158 @@
+.book-list {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  .book-list h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .book-card {
+    width: 200px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .book-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .book-card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #444;
+  }
+  .book-list {
+    padding: 20px;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+  }
+  
+  .fiction {
+    background-color: #ffebcd; /* Light brown */
+    color: #333;
+  }
+  
+  .non-fiction {
+    background-color: #f5f5f5; /* Light gray */
+    color: #000;
+  }
+  
+  .story-books {
+    background-color: #ffcccb; /* Light red */
+    color: #333;
+  }
+  
+  .horror {
+    background-color: #000;
+    color:  white;
+  }
+  
+  .romantic-fiction {
+    background-color: #f35050; /* Pink */
+    color: white;
+  }
+  
+  .comics {
+    background-color:#FFD700 ;
+    color: black;
+  }
+  
+  .book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .book-card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 180px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+.book-card img {
+    width: 180px;  /* Fixed width */
+    height: 250px; /* Fixed height */
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+.category-card img {
+  width: 350px; 
+  height: 250px;
+  object-fit: cover; 
+  border-radius: 10px; 
+  display: block; 
+}
+.book-card {
+  width: 200px;
+  height: 300px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.book-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.book-card:hover .book-info {
+  opacity: 1;
+}
+
+.book-description {
+  font-size: 16px;
+  margin-top: 5px;
+}
